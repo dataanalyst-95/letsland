@@ -79,7 +79,7 @@ Object.entries(data).forEach(([useCase, kpis]) => {
   kpis.forEach(kpi => {
     const item = document.createElement("li");
     const link = document.createElement("a");
-    link.href = "#";  // Placeholder
+    link.href = "https://analytics.apdcl.org/links/resources/report?uri=%2Freports%2Freports%2F8735acce-31da-4ae8-95ac-b8a5601ec981";  // Placeholder
     link.textContent = kpi;
     item.appendChild(link);
     list.appendChild(item);
